@@ -1,0 +1,31 @@
+[2026-04-19T03:07:06Z] === ENRICH ITERATION 2 START | repo=jquery/jquery sha=97525193 ===
+[2026-04-19T03:07:06Z] [iter=2] PHASE START: enrich repo=jquery/jquery sha=97525193 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/97525193-enrich-iter-002.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/97525193735ed32c332f0dbaf2f782df8b1b949b.nq.gz
+[2026-04-19T03:07:27Z] [iter=2] Step 1: Loading AST into disk-backed store mem_mb=79 MB
+[2026-04-19T03:08:01Z] [iter=2] AST store loaded triples=3783171 load_secs=33 mem_mb=1002 MB
+[2026-04-19T03:08:01Z] [iter=2] Step 2: Finding LSP targets mem_mb=1002 MB
+[2026-04-19T03:08:03Z] [iter=2] LSP targets found call_sites=35299 imports=549 extends=0 implements=0 secs=2
+[2026-04-19T03:08:05Z] [iter=2] Loaded checkpoint partial graph triples=50719
+[2026-04-19T03:08:05Z] [iter=2] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1002 MB
+[2026-04-19T03:08:26Z] [iter=2] Position index built positions=264674 nodes_with_types=308330 secs=21 mem_mb=1002 MB
+[2026-04-19T03:08:26Z] [iter=2] Step 3: Starting LSP resolution mem_mb=1002 MB already_completed_types=[] already_completed_files=12
+[2026-04-19T03:08:26Z] [iter=2] Resolving target type target_type=call_site count=35299
+[2026-04-19T03:08:26Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=1.3 files_done=0 resolved=0 errors=0 current=dist/jquery.js
+[2026-04-19T03:37:24Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=30.3 files_done=1 resolved=48 errors=1406 current=test/unit/offset.js
+[2026-04-19T03:45:20Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=38.2 files_done=2 resolved=65 errors=1792 current=dist-module/jquery.module.js
+[2026-04-19T04:14:14Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=67.1 files_done=3 resolved=117 errors=3197 current=test/unit/core.js
+[2026-04-19T04:24:14Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=77.1 files_done=4 resolved=165 errors=3684 current=dist-module/jquery.factory.module.js
+[2026-04-19T04:53:08Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=106.0 files_done=5 resolved=217 errors=5089 current=build/release/dist.js
+[2026-04-19T05:14:00Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=126.9 files_done=7 resolved=256 errors=6107 current=test/unit/dimensions.js
+[2026-04-19T05:26:50Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=139.7 files_done=8 resolved=259 errors=6733 current=src/effects.js
+[2026-04-19T05:28:58Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=141.9 files_done=9 resolved=266 errors=6837 current=test/unit/selector.js
+[2026-04-19T05:50:03Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=162.9 files_done=10 resolved=341 errors=7865 current=test/unit/traversing.js
+[2026-04-19T06:02:45Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=175.6 files_done=11 resolved=375 errors=8484 current=test/unit/manipulation.js
+[2026-04-19T06:27:42Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=200.6 files_done=12 resolved=467 errors=9699 current=src/event/trigger.js
+[2026-04-19T06:28:33Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=201.5 files_done=13 resolved=468 errors=9740 current=test/unit/callbacks.js
+[2026-04-19T06:32:11Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=205.1 files_done=14 resolved=469 errors=9916 current=test/data/testinit.js
+[2026-04-19T06:33:09Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=206.0 files_done=15 resolved=479 errors=9963 current=dist-module/jquery.slim.module.js
+[2026-04-19T06:53:47Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=226.7 files_done=16 resolved=522 errors=10968 current=test/unit/effects.js
+[2026-04-19T07:07:12Z] [iter=2] CHECKPOINT TRIGGERED elapsed_min=240.1 files_completed=28 new_files_this_iter=16 mem_mb=1061 MB
+[2026-04-19T07:07:12Z] [iter=2] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/97525193735ed32c332f0dbaf2f782df8b1b949b.nq.gz triples=108589
+[2026-04-19T07:07:14Z] [iter=2] Checkpoint written, exiting with code 7
+[2026-04-19T07:07:14Z] [iter=2] PHASE END: enrich (checkpointed) elapsed_s=14406 elapsed_min=240.1 files_completed=28
