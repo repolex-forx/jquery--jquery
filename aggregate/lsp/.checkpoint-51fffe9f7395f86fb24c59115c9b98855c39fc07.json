@@ -1,17 +1,29 @@
 {
   "commit_sha": "51fffe9f7395f86fb24c59115c9b98855c39fc07",
   "completed_files": [
+    "dist-module/jquery.factory.module.js",
     "dist-module/jquery.factory.slim.module.js",
+    "dist-module/jquery.module.js",
     "dist/jquery.factory.js",
     "dist/jquery.slim.js",
+    "src/core/parseHTML.js",
     "src/manipulation.js",
+    "src/selector.js",
+    "test/data/jquery-3.7.1.js",
+    "test/promises_aplus_adapters/when.cjs",
     "test/unit/ajax.js",
     "test/unit/attributes.js",
+    "test/unit/core.js",
     "test/unit/css.js",
     "test/unit/data.js",
+    "test/unit/deprecated.js",
+    "test/unit/dimensions.js",
+    "test/unit/effects.js",
+    "test/unit/manipulation.js",
     "test/unit/selector.js",
     "test/unit/traversing.js",
-    "test/unit/tween.js"
+    "test/unit/tween.js",
+    "test/unit/wrap.js"
   ],
   "completed_types": [],
   "stats": {
@@ -19,13 +31,13 @@
     "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/51fffe9f7395f86fb24c59115c9b98855c39fc07.nq.gz",
     "call_sites": 35591,
     "import_statements": 600,
-    "call_targets_resolved": 394,
+    "call_targets_resolved": 724,
     "import_targets_resolved": 0,
     "symbols_exported": 0,
     "external_resolved": 0,
     "dataflow_arg_to_param": 0,
     "dataflow_return_to_call": 0,
-    "errors": 8911,
+    "errors": 17902,
     "extends_clauses": 0,
     "implements_clauses": 0,
     "import_modules_denormalized": 600,
@@ -33,5 +45,5 @@
     "extends_class_denormalized": 0,
     "implements_interface_denormalized": 0
   },
-  "elapsed_seconds": 14405
+  "elapsed_seconds": 14402
 }
