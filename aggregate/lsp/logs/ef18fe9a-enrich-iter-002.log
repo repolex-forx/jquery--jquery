@@ -1,0 +1,18 @@
+[2026-04-21T02:34:24Z] === ENRICH ITERATION 2 START | repo=jquery/jquery sha=ef18fe9a ===
+[2026-04-21T02:34:24Z] [iter=2] PHASE START: enrich repo=jquery/jquery sha=ef18fe9a runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/ef18fe9a-enrich-iter-002.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/ef18fe9af5db5088657d42fde07bb23b19d0c494.nq.gz
+[2026-04-21T02:34:48Z] [iter=2] Step 1: Loading AST into disk-backed store mem_mb=83 MB
+[2026-04-21T02:35:11Z] [iter=2] AST store loaded triples=2532187 load_secs=22 mem_mb=857 MB
+[2026-04-21T02:35:11Z] [iter=2] Step 2: Finding LSP targets mem_mb=857 MB
+[2026-04-21T02:35:13Z] [iter=2] LSP targets found call_sites=27224 imports=0 extends=0 implements=0 secs=2
+[2026-04-21T02:35:16Z] [iter=2] Loaded checkpoint partial graph triples=87390
+[2026-04-21T02:35:16Z] [iter=2] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=857 MB
+[2026-04-21T02:35:31Z] [iter=2] Position index built positions=176026 nodes_with_types=208062 secs=15 mem_mb=857 MB
+[2026-04-21T02:35:31Z] [iter=2] Step 3: Starting LSP resolution mem_mb=857 MB already_completed_types=[] already_completed_files=120
+[2026-04-21T02:35:31Z] [iter=2] Resolving target type target_type=call_site count=27224
+[2026-04-21T02:35:32Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=1.1 files_done=0 resolved=0 errors=0 current=src/var/isWindow.js
+[2026-04-21T02:36:04Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=1.7 files_done=21 resolved=3 errors=31 current=src/css/finalPropName.js
+[2026-04-21T02:36:24Z] [iter=2] Target type resolved target_type=call_site resolved=4 errors=49 secs=52 mem_mb=857 MB
+[2026-04-21T02:36:32Z] [iter=2] Step 5: Writing final enrichment file triples=161442
+[2026-04-21T02:36:36Z] [iter=2] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/ef18fe9af5db5088657d42fde07bb23b19d0c494.nq.gz size_kb=3041
+[2026-04-21T02:36:36Z] [iter=2] Checkpoint cleared (enrichment complete)
+[2026-04-21T02:36:36Z] [iter=2] PHASE END: enrich elapsed_s=131 elapsed_min=2.2 total_triples=161442
