@@ -1,0 +1,29 @@
+[2026-04-22T22:37:48Z] === ENRICH ITERATION 2 START | repo=jquery/jquery sha=75f7e963 ===
+[2026-04-22T22:37:48Z] [iter=2] PHASE START: enrich repo=jquery/jquery sha=75f7e963 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/75f7e963-enrich-iter-002.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/75f7e963708b60f37a42b777f35825d33c4f8e7a.nq.gz
+[2026-04-22T22:38:10Z] [iter=2] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-04-22T22:38:28Z] [iter=2] AST store loaded triples=2335979 load_secs=17 mem_mb=875 MB
+[2026-04-22T22:38:28Z] [iter=2] Step 2: Finding LSP targets mem_mb=875 MB
+[2026-04-22T22:38:29Z] [iter=2] LSP targets found call_sites=24950 imports=0 extends=0 implements=0 secs=1
+[2026-04-22T22:38:33Z] [iter=2] Loaded checkpoint partial graph triples=77471
+[2026-04-22T22:38:33Z] [iter=2] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=875 MB
+[2026-04-22T22:38:47Z] [iter=2] Position index built positions=161605 nodes_with_types=191136 secs=15 mem_mb=875 MB
+[2026-04-22T22:38:47Z] [iter=2] Step 3: Starting LSP resolution mem_mb=875 MB already_completed_types=[] already_completed_files=64
+[2026-04-22T22:38:47Z] [iter=2] Resolving target type target_type=call_site count=24950
+[2026-04-22T22:38:47Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=1.0 files_done=0 resolved=0 errors=0 current=src/css/support.js
+[2026-04-22T22:39:34Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=1.8 files_done=2 resolved=12 errors=49 current=build/release/ensure-sizzle.js
+[2026-04-22T22:40:05Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=2.3 files_done=5 resolved=17 errors=82 current=src/callbacks.js
+[2026-04-22T22:40:42Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=2.9 files_done=9 resolved=19 errors=122 current=test/unit/support.js
+[2026-04-22T22:41:21Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=3.5 files_done=14 resolved=19 errors=163 current=src/attributes/val.js
+[2026-04-22T22:41:53Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=4.1 files_done=16 resolved=21 errors=198 current=src/css/var/isHiddenWithinTree.js
+[2026-04-22T22:42:32Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=4.7 files_done=19 resolved=27 errors=240 current=src/data/var/dataPriv.js
+[2026-04-22T22:43:21Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=5.5 files_done=25 resolved=29 errors=292 current=src/attributes/classes.js
+[2026-04-22T22:43:59Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=6.2 files_done=26 resolved=31 errors=333 current=src/deferred/exceptionHook.js
+[2026-04-22T22:44:39Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=6.8 files_done=34 resolved=35 errors=376 current=src/ajax/xhr.js
+[2026-04-22T22:45:10Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=7.4 files_done=37 resolved=36 errors=409 current=test/node_smoke_tests/document_passed.js
+[2026-04-22T22:45:45Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=8.0 files_done=45 resolved=42 errors=447 current=src/data/var/acceptData.js
+[2026-04-22T22:46:17Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=8.5 files_done=57 resolved=50 errors=481 current=src/css/var/getStyles.js
+[2026-04-22T22:46:47Z] [iter=2] Target type resolved target_type=call_site resolved=56 errors=512 secs=479 mem_mb=875 MB
+[2026-04-22T22:46:54Z] [iter=2] Step 5: Writing final enrichment file triples=148775
+[2026-04-22T22:46:57Z] [iter=2] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/75f7e963708b60f37a42b777f35825d33c4f8e7a.nq.gz size_kb=2802
+[2026-04-22T22:46:57Z] [iter=2] Checkpoint cleared (enrichment complete)
+[2026-04-22T22:46:57Z] [iter=2] PHASE END: enrich elapsed_s=549 elapsed_min=9.2 total_triples=148775
