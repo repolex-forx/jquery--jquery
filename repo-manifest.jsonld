@@ -808,8 +808,9 @@
     {
       "@id": "https://repolex.ai/r/jquery/jquery/commit/f9846aec1dadc4bc80ca2df47d3ecc1b9f7a4f84",
       "git:hexsha": "f9846aec1dadc4bc80ca2df47d3ecc1b9f7a4f84",
-      "repolex:parseStatus": "pending",
-      "git:tagName": "3.0.0-alpha1"
+      "repolex:parseStatus": "parsed",
+      "git:tagName": "3.0.0-alpha1",
+      "repolex:parsedAt": "2026-04-24T09:52:39.237457+00:00"
     },
     {
       "@id": "https://repolex.ai/r/jquery/jquery/commit/ef64d82ec3d1717478979cba986d896aa0dda617",
