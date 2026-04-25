@@ -1,0 +1,60 @@
+[2026-04-25T02:13:58Z] === ENRICH ITERATION 1 START | repo=jquery/jquery sha=73c6a233 ===
+[2026-04-25T02:13:58Z] [iter=1] PHASE START: enrich repo=jquery/jquery sha=73c6a233 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/73c6a233-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/73c6a233e64c9669c24aa195ee37bddeeb8d568e.nq.gz
+[2026-04-25T02:14:18Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-04-25T02:14:34Z] [iter=1] AST store loaded triples=1856510 load_secs=15 mem_mb=862 MB
+[2026-04-25T02:14:34Z] [iter=1] Step 2: Finding LSP targets mem_mb=862 MB
+[2026-04-25T02:14:36Z] [iter=1] LSP targets found call_sites=20497 imports=0 extends=0 implements=0 secs=1
+[2026-04-25T02:14:36Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=862 MB
+[2026-04-25T02:14:47Z] [iter=1] Position index built positions=128154 nodes_with_types=152335 secs=11 mem_mb=862 MB
+[2026-04-25T02:14:47Z] [iter=1] Step 3: Starting LSP resolution mem_mb=862 MB already_completed_types=[] already_completed_files=0
+[2026-04-25T02:14:47Z] [iter=1] Resolving target type target_type=call_site count=20497
+[2026-04-25T02:14:47Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.8 files_done=0 resolved=0 errors=0 current=dist/jquery.js
+[2026-04-25T02:34:17Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=20.3 files_done=1 resolved=25 errors=1513 current=test/unit/manipulation.js
+[2026-04-25T02:48:06Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=34.1 files_done=2 resolved=106 errors=2585 current=test/unit/effects.js
+[2026-04-25T02:58:05Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=44.1 files_done=3 resolved=134 errors=3361 current=test/unit/css.js
+[2026-04-25T03:05:52Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=51.9 files_done=4 resolved=182 errors=3960 current=test/unit/event.js
+[2026-04-25T03:17:40Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=63.7 files_done=5 resolved=193 errors=4877 current=test/unit/dimensions.js
+[2026-04-25T03:22:50Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=68.9 files_done=6 resolved=194 errors=5279 current=test/unit/ajax.js
+[2026-04-25T03:28:08Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=74.2 files_done=7 resolved=206 errors=5691 current=test/unit/wrap.js
+[2026-04-25T03:29:40Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=75.7 files_done=8 resolved=211 errors=5810 current=test/unit/attributes.js
+[2026-04-25T03:40:46Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=86.8 files_done=9 resolved=243 errors=6671 current=test/unit/traversing.js
+[2026-04-25T03:47:43Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=93.8 files_done=10 resolved=272 errors=7213 current=src/effects.js
+[2026-04-25T03:49:10Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=95.2 files_done=11 resolved=276 errors=7325 current=test/data/jquery-1.9.1.js
+[2026-04-25T04:08:45Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=114.8 files_done=12 resolved=312 errors=8849 current=src/ajax/xhr.js
+[2026-04-25T04:13:59Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=120.0 files_done=14 resolved=324 errors=9256 current=src/data/var/dataPriv.js
+[2026-04-25T04:21:55Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=127.9 files_done=17 resolved=376 errors=9872 current=build/tasks/dist.js
+[2026-04-25T04:24:24Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=130.4 files_done=19 resolved=379 errors=10065 current=src/manipulation/_evalUrl.js
+[2026-04-25T04:24:54Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=130.9 files_done=22 resolved=379 errors=10104 current=src/core.js
+[2026-04-25T04:25:38Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=131.7 files_done=23 resolved=382 errors=10160 current=test/node_smoke_tests/iterable_with_symbol_polyfill.js
+[2026-04-25T04:29:59Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=136.0 files_done=25 resolved=390 errors=10498 current=test/promises_aplus_adapter.js
+[2026-04-25T04:30:32Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=136.6 files_done=27 resolved=391 errors=10541 current=src/deferred.js
+[2026-04-25T04:31:03Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=137.1 files_done=28 resolved=391 errors=10581 current=src/serialize.js
+[2026-04-25T04:34:45Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=140.8 files_done=30 resolved=407 errors=10868 current=build/tasks/build.js
+[2026-04-25T04:35:29Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=141.5 files_done=31 resolved=407 errors=10925 current=src/dimensions.js
+[2026-04-25T04:37:27Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=143.5 files_done=33 resolved=408 errors=11079 current=test/unit/serialize.js
+[2026-04-25T04:38:07Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=144.1 files_done=35 resolved=415 errors=11130 current=test/unit/callbacks.js
+[2026-04-25T04:40:13Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=146.2 files_done=36 resolved=416 errors=11293 current=test/data/support/csp.js
+[2026-04-25T04:41:06Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=147.1 files_done=38 resolved=418 errors=11362 current=build/tasks/testswarm.js
+[2026-04-25T04:41:51Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=147.9 files_done=42 resolved=421 errors=11420 current=src/ajax/load.js
+[2026-04-25T04:43:44Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=149.8 files_done=44 resolved=429 errors=11565 current=src/manipulation.js
+[2026-04-25T04:44:59Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=151.0 files_done=45 resolved=429 errors=11663 current=src/var/pnum.js
+[2026-04-25T04:46:21Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=152.4 files_done=48 resolved=434 errors=11769 current=src/ajax/script.js
+[2026-04-25T04:46:55Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=152.9 files_done=52 resolved=449 errors=11813 current=src/attributes/attr.js
+[2026-04-25T04:47:32Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=153.6 files_done=54 resolved=449 errors=11861 current=test/data/testrunner.js
+[2026-04-25T04:48:35Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=154.6 files_done=56 resolved=456 errors=11942 current=src/manipulation/buildFragment.js
+[2026-04-25T04:49:16Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=155.3 files_done=58 resolved=468 errors=11995 current=Gruntfile.js
+[2026-04-25T04:49:46Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=155.8 files_done=60 resolved=469 errors=12034 current=src/effects/Tween.js
+[2026-04-25T04:50:32Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=156.6 files_done=63 resolved=474 errors=12094 current=build/tasks/promises_aplus_tests.js
+[2026-04-25T04:51:07Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=157.2 files_done=68 resolved=475 errors=12140 current=test/node_smoke_tests/lib/ensure_iterability_es6.js
+[2026-04-25T04:51:38Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=157.7 files_done=71 resolved=475 errors=12180 current=build/tasks/sourcemap.js
+[2026-04-25T04:52:12Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=158.2 files_done=74 resolved=476 errors=12224 current=src/queue.js
+[2026-04-25T04:52:44Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=158.8 files_done=79 resolved=476 errors=12265 current=src/offset.js
+[2026-04-25T04:53:17Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=159.3 files_done=81 resolved=478 errors=12308 current=src/event/focusin.js
+[2026-04-25T04:53:47Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=159.8 files_done=86 resolved=478 errors=12347 current=src/attributes/support.js
+[2026-04-25T04:54:21Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=160.4 files_done=98 resolved=486 errors=12390 current=src/core/init.js
+[2026-04-25T04:54:51Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=160.9 files_done=102 resolved=486 errors=12429 current=src/var/concat.js
+[2026-04-25T04:55:22Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=161.4 files_done=120 resolved=494 errors=12469 current=src/ajax/var/rquery.js
+[2026-04-25T04:55:28Z] [iter=1] Target type resolved target_type=call_site resolved=495 errors=12476 secs=9642 mem_mb=862 MB
+[2026-04-25T04:55:35Z] [iter=1] Step 5: Writing final enrichment file triples=115501
+[2026-04-25T04:55:37Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/73c6a233e64c9669c24aa195ee37bddeeb8d568e.nq.gz size_kb=2141
+[2026-04-25T04:55:37Z] [iter=1] PHASE END: enrich elapsed_s=9699 elapsed_min=161.6 total_triples=115501

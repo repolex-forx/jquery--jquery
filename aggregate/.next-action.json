@@ -1,9 +1,9 @@
 {
-  "next_action": "enrich",
-  "phase_completed": "ast",
+  "next_action": "combine",
+  "phase_completed": "enrich",
   "commit_sha": "73c6a233e64c9669c24aa195ee37bddeeb8d568e",
-  "ts": "2026-04-25T02:07:27Z",
-  "chunks": 1,
-  "triples": 1856511,
-  "skip_lsp": false
+  "ts": "2026-04-25T04:55:37Z",
+  "call_sites": 20497,
+  "call_targets_resolved": 495,
+  "import_targets_resolved": 0
 }
