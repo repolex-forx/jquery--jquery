@@ -1,0 +1,7 @@
+[2026-09-08T05:03:01Z] === AST ITERATION 1 START | repo=jquery/jquery sha=8f2a9d92 ===
+[2026-09-08T05:03:01Z] [iter=1] PHASE START: ast repo=jquery/jquery sha=8f2a9d92
+[2026-09-08T05:03:01Z] [iter=1] Building AST aggregate chunks
+[2026-09-08T05:06:43Z] [iter=1] AST chunks built count=1 triples=2252773
+[2026-09-08T05:06:43Z] [iter=1] AST .complete marker written path=/home/runner/work/forx/forx/storage/aggregate/ast/8f2a9d9272d6ed7f32d3a484740ab342c02541e0/.complete
+[2026-09-08T05:06:43Z] [iter=1] PHASE END: ast elapsed_s=223 elapsed_min=3.7
+[2026-09-08T05:06:43Z] [iter=1] Wrote .next-action.json next_action=enrich path=/home/runner/work/forx/forx/storage/aggregate/.next-action.json
